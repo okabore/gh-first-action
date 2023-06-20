@@ -8,4 +8,6 @@ jobs:
       - name: test
         run: echo "Hello world"
       - name: print good bye
-        run: echo "done bye!"
+        run: |
+            echo "done bye!"
+            echo "This is multi lines commands"
